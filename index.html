@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid d-flex justify-content-end">
+        <button
+          class="navbar-toggler hambar"
+          type="button"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" onclick="myFunction()"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ms-3">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="./work.html"
+                >My WORK</a
+              >
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link text-light" href="./about.html">About ME</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link text-light" href="./contact_me.html"
+                >Contact ME</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="main_img">
+      <img
+        class="w-100 img-fluid"
+        src="./assets/6ea8c68dfa924bc2e6a9abe3e473087a.gif"
+        alt="gif"
+      />
+    </div>
+
+    <div id="intro">
+      <h2 id="intro_title" class="pt-4 ps-4">
+        Hi,I'm <span id="intro_name">Yash Potdar</span> , Software Developer &
+        Programmer
+      </h2>
+    </div>
+
+    <div id="work">
+      <h3 class="d-flex justify-content-center mt-5 w-100 work_text">
+        ----------- My Work -----------
+      </h3>
+      <div class="d-flex flex-row-reverse">
+        <img src="./assets/Group 577.png" id="more_img" alt="" />
+        <a
+          href="./work.html"
+          class="border border-dark-subtle rounded-pill p-1 text-decoration-none text-black"
+          style="height: 1%"
+          >more &rArr;</a>
+      </div>
+      <img
+        src="./assets/Group 596.png"
+        class="work_img d-flex justify-content-center w-75 mx-auto d-block"
+        alt="png"
+      />
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>

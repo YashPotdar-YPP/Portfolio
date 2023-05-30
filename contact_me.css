@@ -1,0 +1,33 @@
+body {
+  margin: 0%;
+  font-family: "Philosopher";
+}
+.navbar , #submit {
+  background-color: #071a7b;
+  border: 1px solid #071a7b;
+}
+.work_text {
+  color: rgb(241, 171, 29);
+}
+.contact_text {
+  margin-top: 18%;
+  word-wrap: break-word;
+}
+#whatsapp {
+  font-size: xx-large;
+  color: green;
+}
+#instagram{
+  font-size: xx-large;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

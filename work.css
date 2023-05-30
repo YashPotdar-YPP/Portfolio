@@ -1,0 +1,13 @@
+.navbar {
+  background-color: #071a7b;
+  font-family: system-ui;
+}
+.work_text {
+  color: rgb(241, 171, 29);
+}
+.dis_login {
+  margin-left: 50%;
+  margin-top: -38%;
+  font-style: italic;
+  font-weight: 400;
+}
